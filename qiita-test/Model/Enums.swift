@@ -16,4 +16,7 @@ enum Errors: Error {
     case decodingError
     case networkError(Int)
     case castError
+    case coreDataReadError
+    case coreDataWriteError
+    case containersError
 }

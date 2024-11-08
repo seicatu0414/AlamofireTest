@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="SearchedUserCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserFolloweeCell" rowHeight="191" id="iLG-03-MBA" customClass="UserFolloweeCell" customModule="qiita_test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iLG-03-MBA" id="YDC-4H-CsQ">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="85k-aj-bVV">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="67L-mi-vHR"/>
+                            <constraint firstAttribute="height" constant="100" id="Bf1-lb-fr1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ユーザー名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIf-Bn-6L5">
+                        <rect key="frame" x="105" y="0.0" width="77" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" name="TitleGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="フォロー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIY-Ml-lBl">
+                        <rect key="frame" x="225" y="49" width="61.333333333333314" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" name="TitleGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フォロワー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rm1-Em-uzj">
+                        <rect key="frame" x="105" y="49" width="104" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="F21-02-0Qq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" name="TitleGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ユーザーの名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebL-27-0Oz" userLabel="ユーザーの名前">
+                        <rect key="frame" x="105.00000000000001" y="18" width="156.33333333333337" height="26"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <color key="textColor" name="StringBlack"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フォロワー数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ha-qB-QC5">
+                        <rect key="frame" x="105" y="67" width="104" height="20.333333333333329"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="ryz-4A-PJz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" name="StringBlack"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フォロー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfZ-RH-25m">
+                        <rect key="frame" x="225.00000000000003" y="67" width="69.333333333333343" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" name="StringBlack"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="85k-aj-bVV" secondAttribute="bottom" id="2sx-8d-BGJ"/>
+                    <constraint firstItem="DIf-Bn-6L5" firstAttribute="top" secondItem="YDC-4H-CsQ" secondAttribute="top" id="5Gp-7R-Q7L"/>
+                    <constraint firstItem="85k-aj-bVV" firstAttribute="leading" secondItem="YDC-4H-CsQ" secondAttribute="leading" id="5JM-Sg-tq4"/>
+                    <constraint firstItem="dfZ-RH-25m" firstAttribute="top" secondItem="SIY-Ml-lBl" secondAttribute="bottom" id="Chs-gl-6ju"/>
+                    <constraint firstItem="rm1-Em-uzj" firstAttribute="top" secondItem="ebL-27-0Oz" secondAttribute="bottom" constant="5" id="Fdb-z5-X07"/>
+                    <constraint firstItem="ebL-27-0Oz" firstAttribute="leading" secondItem="85k-aj-bVV" secondAttribute="trailing" constant="5" id="L2d-rB-Z4d"/>
+                    <constraint firstItem="ebL-27-0Oz" firstAttribute="top" secondItem="DIf-Bn-6L5" secondAttribute="bottom" id="Mth-UC-OOa"/>
+                    <constraint firstItem="SIY-Ml-lBl" firstAttribute="top" secondItem="ebL-27-0Oz" secondAttribute="bottom" constant="5" id="Sju-Vk-NYl"/>
+                    <constraint firstItem="DIf-Bn-6L5" firstAttribute="leading" secondItem="85k-aj-bVV" secondAttribute="trailing" constant="5" id="ZXM-Hf-Fhm"/>
+                    <constraint firstItem="85k-aj-bVV" firstAttribute="top" secondItem="YDC-4H-CsQ" secondAttribute="top" id="cHb-Pr-Lfv"/>
+                    <constraint firstItem="dfZ-RH-25m" firstAttribute="leading" secondItem="6Ha-qB-QC5" secondAttribute="trailing" constant="16" id="hJn-4x-n9q"/>
+                    <constraint firstItem="6Ha-qB-QC5" firstAttribute="top" secondItem="rm1-Em-uzj" secondAttribute="bottom" id="jnf-vb-otW"/>
+                    <constraint firstItem="rm1-Em-uzj" firstAttribute="leading" secondItem="85k-aj-bVV" secondAttribute="trailing" constant="5" id="nja-Cg-cSK"/>
+                    <constraint firstItem="SIY-Ml-lBl" firstAttribute="leading" secondItem="rm1-Em-uzj" secondAttribute="trailing" constant="16" id="tr8-om-Acx"/>
+                    <constraint firstItem="6Ha-qB-QC5" firstAttribute="leading" secondItem="85k-aj-bVV" secondAttribute="trailing" constant="5" id="wnA-6m-6xY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="followeeFolloweesCountLabel" destination="dfZ-RH-25m" id="Tsh-9h-ZPf"/>
+                <outlet property="followeeFollowersCountLabel" destination="6Ha-qB-QC5" id="XiU-rH-dVE"/>
+                <outlet property="followeeIconImageView" destination="85k-aj-bVV" id="COa-fg-gRm"/>
+                <outlet property="followeeNameLabel" destination="ebL-27-0Oz" id="Cqj-x9-KfQ"/>
+            </connections>
+            <point key="canvasLocation" x="-270.99236641221376" y="-125.35211267605635"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="StringBlack">
+            <color red="0.11372549019607843" green="0.12941176470588237" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleGreenColor">
+            <color red="0.34901960784313724" green="0.73333333333333328" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

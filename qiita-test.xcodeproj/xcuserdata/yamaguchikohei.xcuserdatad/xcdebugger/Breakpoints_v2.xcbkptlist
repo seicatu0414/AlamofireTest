@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7E70B84F-0214-4E06-AE4F-9D70A76A44D9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB72B5D3-E369-457E-9935-8727BDB7919E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "qiita-test/Model/Struct/APIStructs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB72B5D3-E369-457E-9935-8727BDB7919E - 5444a6dd4976fd56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "qiita_test.Group.init(from: Swift.Decoder) throws -&gt; qiita_test.Group"
+                  moduleName = "qiita-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yamaguchikohei/PREVENTTest/qiita-test/Model/Struct/APIStructs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "FB72B5D3-E369-457E-9935-8727BDB7919E - 5444a6dd4976fd56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "qiita_test.Group.init(from: Swift.Decoder) throws -&gt; qiita_test.Group"
+                  moduleName = "qiita-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yamaguchikohei/PREVENTTest/qiita-test/Model/Struct/APIStructs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "FB72B5D3-E369-457E-9935-8727BDB7919E - 5444a6dd4976fd56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "qiita_test.Group.init(from: Swift.Decoder) throws -&gt; qiita_test.Group"
+                  moduleName = "qiita-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yamaguchikohei/PREVENTTest/qiita-test/Model/Struct/APIStructs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C5F3D9E-2ECD-40DE-877B-6735A62C6E82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "qiita-test/Model/APIModel/GetAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "sendUserApi(userId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
